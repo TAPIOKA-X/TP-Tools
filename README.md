@@ -1,3 +1,9 @@
+Official site
+- https://tapioka-site.f5.si/
+
+公式サイト
+- https://tapioka-site.f5.si/
+
 ENGLISH
 - .html file is tool :3
 - rPanda etc tool is free tool :)
