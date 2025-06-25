@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css"></link>
+<link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png"></link>
+
+<script src= "https://tapioka-site.f5.si/JavaScript/main.js"></script>
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name= "viewport" content= "width=device-width">
+<meta charset= "Shift_JIS">
+<meta name= "twitter:image" content= "img/title/TWR-Card.png">
+
+<title>rPanda tool</title>
+</head>
+
+<body>
+<!--CREATED BY: https://tapioka-site.f5.si/-->
+<h1 class= "BackGround-Black" id= "Title">rPanda tool V1.02<h1>
+<button onclick= "Japanese()">英語 to 日本語</button>
+<h2 id= "Creator">CREATED BY: <a href= "https://tapioka-site.f5.si/">TAPI-HomePages</a></h2>
+<br>
+<div class= "Border">
+<p><b id= "SiteListTitle">SITE LIST:</b></p>
+<p id= "YouTubeAbout">If you want to use youtube, type "youtube".</p>
+<p id= "PixivAbout">If you want to use pixiv, type "pixiv".</p>
+<p id= "MinecraftAbout">If you want to use Minecraft, type "minecraft".></p>
+</div>
+<br>
+ <input id= "URL" style= "border-radius: 13px; font-size: 20px; padding: 5px;" type= "text" value= "URL here..">&nbsp;<button onclick= "start()" id= "Btn">Execution</button> <br>
+  <br>
+ <iframe id= "SiteIframe" width= "1280px" height= "545px" src= "https://www.example.com/" allowfullscreen></iframe> <br>
+<!--CREATED BY: https://tapioka-site.f5.si/-->
+<script>
+//CREATED BY: https://tapioka-site.f5.si/
+
+//system
+ var UserURL = document.getElementById("URL");
+ var Iframe = document.getElementById("SiteIframe");
+
+//Site Link
+ var youtube = "https://tubo.media/";
+ var pixiv = "https://litexiv.465321.best/";
+ var minecraft = "https://eaglercraft.com/";
+
+//Btn function
+ function start(){
+  if(UserURL.value === "youtube"){
+   Iframe.src = youtube;
+  }else if(UserURL.value === "pixiv"){
+   Iframe.src = pixiv;
+  }else if(UserURL.value === "minecraft"){
+   Iframe.src = minecraft;
+  }else if(UserURL.value === "URL here.."){
+   alert("URL here...");
+  }else{
+   alert("Please enter a valid URL.")
+  };
+ };
+
+
+
+var Title = document.getElementById("Title");
+var SiteListTitle = document.getElementById("SiteListTitle");
+var YouTubeAbout = document.getElementById("YouTubeAbout");
+var PixivAbout = document.getElementById("PixivAbout");
+var MinecraftAbout = document.getElementById("MinecraftAbout");
+var Btn = document.getElementById("Btn");
+
+ function Japanese(){
+  Title.innerHTML = "rPandaツール v1.02";
+  SiteListTitle.innerHTML = "利用できるサイトと利用方法: ";
+  YouTubeAbout.innerHTML = "YouTubeの利用方法は、「URL here..」に、「youtube」と打ち込んで下さい。";
+  PixivAbout.innerHTML = "Pixivの利用方法は、「URL here..」に、「pixiv」と打ち込んでください。";
+  MinecraftAbout.innerHTML = "Minecraftの利用方法は、「URL here..」に「minecraft」と打ち込んでください。";
+  Btn.innerHTML = "実行";
+ };
+ 
+</script>
+</body>
+
+</html>
