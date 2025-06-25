@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css"></link>
+<link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png"></link>
+
+<script src= "https://tapioka-site.f5.si/JavaScript/main.js"></script>
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name= "viewport" content= "width=device-width">
+<meta charset= "Shift_JIS">
+<meta name= "twitter:image" content= "img/title/TWR-Card.png">
+
+<title>rPanda tool</title>
+</head>
+
+<body>
+<!--CREATED BY: https://tapioka-site.f5.si/-->
+<h1 class= "BackGround-Black">rPanda tool V1.00<h1>
+<h2>CREATED BY: <a href= "https://tapioka-site.f5.si/">TAPI-HomePages</a></h2>
+<br>
+ <input id= "URL" style= "border-radius: 13px; font-size: 20px; padding: 5px;" type= "text" value= "URL here..">&nbsp;<button onclick= "start()">Execution</button> <br>
+  <br>
+ <iframe id= "SiteIframe" width= "1280px" height= "545px" src= "https://www.example.com/"></iframe> <br>
+<!--CREATED BY: https://tapioka-site.f5.si/-->
+<script>
+//system
+ var UserURL = document.getElementById("URL");
+ var Iframe = document.getElementById("SiteIframe");
+
+//Site Link
+ var youtube = "https://tubo.media/";
+ var pixiv = "https://litexiv.465321.best/";
+ 
+//Btn function
+ function start(){
+  if(UserURL.value === "youtube"){
+   Iframe.src = youtube;
+  }else if(UserURL.value === "pixiv"){
+   Iframe.src = pixiv;
+  }else if(UserURL.value === "URL here.."){
+   alert("URL here...");
+  }else{
+   alert("Please enter a valid URL.")
+  };
+ }
+ 
+</script>
+</body>
+
+</html>
