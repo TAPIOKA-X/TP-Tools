@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta charset="Shift_JIS">
+<meta name="viewport" content= "width=device-width">
+<link rel="icon" href="https://tapioka-site.f5.si/img/icon/tapioka-icon.png">
+<title>rPanda tool</title>
+<style>
+body{
+text-align:center;
+align-items:center;
+}
+h1{
+border-radius: 9px;
+}
+iframe{
+border:solid;
+border-radius:12px;
+}
+a{
+text-decoration:none;
+color:red;
+font-weight:900;
+}
+a:hover{
+color:darkred;
+}
+button{
+background: linear-gradient(gray,darkgray,black);
+border: solid black;
+border-radius: 10px;
+color: white;
+font-family: "DotGothic16", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 16px;
+padding: 8px;
+}
+button:hover{
+background: linear-gradient(dimgray,gray,black);
+}
+</style>
+</head>
+<body style= "background-color:silver;">
+<a onclick= "OpenHelp()">How to use (click here)</a><br>
+<h1 style= "background: linear-gradient(gray,black); color: white;">rPanda Tool</h1>
+<iframe src="https://tapioka-site.f5.si/Tool-Update/rPanda.html" width= "530px" height= "112px"></iframe><br><br>
+<input id= "URL" type="text" value="URL here.." style="font-size:22px; font-weight:900; border-radius:12px;"><button id= "Btn" onclick="Execution()">Execution</button>
+<br><br>
+<iframe id= "Iframe" src= "" width="1230px" height="585px"></iframe>
+<script>
+var UserURL = document.getElementById("URL");
+var Iframe = document.getElementById("Iframe");
+function Execution(){
+if(UserURL.value==="youtube"){
+Iframe.src="https://tubo.media/";
+}else if(UserURL.value==="pixiv"){
+Iframe.src="https://litexiv.465321.best/";
+}else if(UserURL.value==="deltarune"){
+Iframe.src="https://bad-time-simulator.com/deltarune";
+}else if(UserURL.value==="minecraft"){
+Iframe.src="https://eaglercraft.com/";
+}else if(UserURL.value==="amongus"){
+Iframe.src="https://turbowarp.org/559213588/embed"
+}else{
+alert("URL HERE!!!!");
+};
+};
+function OpenHelp(){
+alert("Command list:\n\nyoutube\npixiv\ndeltarune\nminecraft\namongus");
+};
+</script>
+</body>
+</html>
