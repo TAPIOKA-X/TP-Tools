@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="Shift_JIS">
+<meta name="viewport" content= "width=device-width">
+<link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css">
+<link rel="icon" href="https://tapioka-site.f5.si/img/icon/tapioka-icon.png">
+<title>rPanda tool</title>
+</head>
+<body style= "background-color:silver;">
+<h1 style= "background: linear-gradient(gray,black); color: white;">rPanda Tool</h1>
+<iframe src="https://tapioka-site.f5.si/Tool-Update/rPanda.html" width= "530px" height= "112px" allow="fullscreen"></iframe><br><br>
+<input id= "URL" type="text" value="URL here.." style="font-size:22px; font-weight:900; border-radius:12px;"><button id= "Btn" onclick="Execution()">Execution</button>
+<br><br>
+<p><b>Quick link: </b><a onclick="TAPIOKA_SITE()">TAPI-Homepage</a>&emsp;<a onclick="YouTube()">YouTube</a>&emsp;<a onclick="Pixiv()">Pixiv</a>&emsp;<a onclick="Deltarune()">Deltarune</a>&emsp;<a onclick="Minecraft()">Minecraft</a>&emsp;<a onclick="Amongus()">Amongus</a></p>
+<iframe id= "Iframe" src= "https://example.com/" width="1230px" height="585px"></iframe><br>
+<script>
+var UserURL=document.getElementById("URL");
+var Iframe=document.getElementById("Iframe");
+function Execution(){
+if(UserURL.value==="tapioka-site"){
+Iframe.src="https://tapioka-site.f5.si/";
+}else if(UserURL.value==="youtube"){
+Iframe.src="https://tubo.media/";
+}else if(UserURL.value==="pixiv"){
+Iframe.src="https://litexiv.bloat.cat/";
+}else if(UserURL.value==="deltarune"){
+Iframe.src="https://bad-time-simulator.com/deltarune";
+}else if(UserURL.value==="minecraft"){
+Iframe.src="https://eaglercraft.com/";
+}else if(UserURL.value==="amongus"){
+Iframe.src="https://turbowarp.org/559213588/embed"
+}else{
+alert("Enter a valid URL!");
+};
+};
+function TAPIOKA_SITE(){
+Iframe.src="https://tapioka-site.f5.si/";
+};
+function YouTube(){
+Iframe.src="https://tubo.media/";
+};
+function Pixiv(){
+Iframe.src="https://litexiv.bloat.cat/";
+};
+function Deltarune(){
+Iframe.src="https://bad-time-simulator.com/deltarune";
+};
+function Minecraft(){
+Iframe.src="https://eaglercraft.com/";
+};
+function Amongus(){
+Iframe.src="https://turbowarp.org/559213588/embed";
+}
+</script>
+</body>
+</html>
