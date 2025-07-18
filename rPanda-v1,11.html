@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta charset= "Shift_JIS">
+<meta name= "viewport" content= "width=device-width">
+<link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css">
+<link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png">
+<title>TP-Tools rPanda</title>
+</head>
+
+<body>
+<h1 class= "BackGround-Black">rPanda tool</h1>
+<iframe src= "https://tapioka-site.f5.si/Tool-Update/rPanda.html" height= "15%"></iframe> <br>
+<b>Quick link:</b>&nbsp;
+<a onclick= "TapiokaSiteQuickLink()">Tapioka-Site</a> &emsp;
+<a onclick= "YouTubeQuickLink()">YouTube</a> &emsp;
+<a onclick= "PixivQuickLink()">Pixiv</a> &emsp;
+<a onclick= "DeltaruneQuickLink()">Deltarune Web</a> &emsp;
+<a onclick= "MinecraftQuickLink()">Minecraft Web</a> &emsp;
+<a onclick= "AmongUS_QuickLink()">AmongUS (TurboWarp)</a> &emsp;
+<br>
+ <iframe id= "Iframe" src= "https://example.com/" width= "1080px" height= "545px"></iframe>
+
+<script>
+
+var Iframe = document.getElementById("Iframe");
+var WarnAlert = "This service is currently unavailable.";
+
+var tapioka_site = "https://tapioka-site.f5.si/";
+var YouTube = "https://tubo.media/";
+var Pixiv = "https://litexiv.qunn.link/";
+var Deltarune = "https://bad-time-simulator.com/deltarune";
+var Minecraft = "https://eaglercraft.com/";
+var AmongUS = "https://turbowarp.org/668123415/embed/";
+
+function Alert(){
+ alert(WarnAlert);
+};
+
+function TapiokaSiteQuickLink(){
+ Iframe.src = tapioka_site;
+};
+
+function YouTubeQuickLink(){
+ Iframe.src = YouTube;
+};
+
+function PixivQuickLink(){
+ Iframe.src = Pixiv;
+};
+
+function DeltaruneQuickLink(){
+ Iframe.src = Deltarune;
+};
+
+function MinecraftQuickLink(){
+ Iframe.src = Minecraft;
+};
+
+function AmongUS_QuickLink(){
+ Iframe.src = AmongUS;
+};
+</script>
+</body>
+</html>
