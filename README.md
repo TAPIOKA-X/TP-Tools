@@ -1,3 +1,8 @@
+- WebShortCut tool update log
+
+2025 7.26 : WebShortCut tool update v1.00
+
+
 - rPanda tool update log
 
 2025 7.21 : rPanda tool update v1.13
