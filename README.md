@@ -1,5 +1,5 @@
 **English**
-# rPandaX Update V1.00 FIXED
+# rPandaX Update V1.01 X
 - Fixed bug
 - Fixed CSS
 # Open Bugs
@@ -11,7 +11,7 @@
 3. Use.
 
 **日本語**
-# rPandaX アップデート V1.00 FIXED
+# rPandaX アップデート V1.01 X
 - バグを修正
 - CSSを修正
 # 未修正のバグ
