@@ -4,7 +4,7 @@
 - Fixed CSS
 # Open Bugs
 - Bug that prevents YouTube videos from being viewed.
-### Download link : [- rPandaX Download -](https://dl.tapioka-site.f5.si/rPandaX.zip)
+### Download link : [- rPandaX Download -](https://dl.tool.tapioka-site.f5.si/rPandaX.zip)
 # How to rPandaX use
 1. Double-click the .zip file or open the extracted folder.
 2. Open rPandaX.html.
