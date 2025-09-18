@@ -1,4 +1,7 @@
-.body_Hacker-Style{
+summary{
+list-style:none;
+}
+body{
 text-align:center;
 background-color:black;
 color:green;
@@ -6,17 +9,17 @@ font-weight: 900;
 font-family: "DotGothic16", sans-serif;
 font-style: normal;
 }
-.h1_Hacker-Style{
+h1{
 border:solid silver 2px;
 border-radius:7px;
 font-size:45px;
 }
-.h2_Hacker-Style{
+h2{
 border:solid silver 2px;
 border-radius:7px;
 color:darkgreen;
 }
-.button_Hacker-Style{
+button{
 background:linear-gradient(green,yellowgreen,green);
 border-radius:5px;
 border:solid silver 3px;
@@ -27,36 +30,22 @@ font-weight: 700;
 font-family: "DotGothic16", sans-serif;
 font-style: normal;
 }
-.button_Hacker-Style:hover{
+button:hover{
 opacity:0.45;
 }
-.button_Hacker-Style_2{
-background:linear-gradient(green,yellowgreen,green);
-border-radius:5px;
-border:solid silver 3px;
-padding:6px;
-color:white;
-font-size:13px;
-font-weight: 700;
-font-family: "DotGothic16", sans-serif;
-font-style: normal;
-}
-.button_Hacker-Style_2:hover{
-opacity:0.45;
-}
-.a_Hacker-Style{
+a{
 color:green;
 font-size:18px;
 font-weight: 900;
 }
-.a_Hacker-Style:hover{
+a:hover{
 color:yellowgreen;
 opacity:0.45;
 }
-.summary_Hacker-Style{
+summary{
 color:green;
 font-weight: 900;
 }
-.summary_Hacker-Style:hover{
+summary:hover{
 opacity:0.3;
 }
