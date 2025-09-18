@@ -1,0 +1,62 @@
+.body_Hacker-Style{
+text-align:center;
+background-color:black;
+color:green;
+font-weight: 900;
+font-family: "DotGothic16", sans-serif;
+font-style: normal;
+}
+.h1_Hacker-Style{
+border:solid silver 2px;
+border-radius:7px;
+font-size:45px;
+}
+.h2_Hacker-Style{
+border:solid silver 2px;
+border-radius:7px;
+color:darkgreen;
+}
+.button_Hacker-Style{
+background:linear-gradient(green,yellowgreen,green);
+border-radius:5px;
+border:solid silver 3px;
+padding:3px;
+color:white;
+font-size:13px;
+font-weight: 700;
+font-family: "DotGothic16", sans-serif;
+font-style: normal;
+}
+.button_Hacker-Style:hover{
+opacity:0.45;
+}
+.button_Hacker-Style_2{
+background:linear-gradient(green,yellowgreen,green);
+border-radius:5px;
+border:solid silver 3px;
+padding:6px;
+color:white;
+font-size:13px;
+font-weight: 700;
+font-family: "DotGothic16", sans-serif;
+font-style: normal;
+}
+.button_Hacker-Style_2:hover{
+opacity:0.45;
+}
+.a_Hacker-Style{
+color:green;
+font-size:18px;
+font-weight: 900;
+}
+.a_Hacker-Style:hover{
+color:yellowgreen;
+opacity:0.45;
+}
+.summary_Hacker-Style{
+color:green;
+font-weight: 900;
+}
+.summary_Hacker-Style:hover{
+opacity:0.3;
+}
