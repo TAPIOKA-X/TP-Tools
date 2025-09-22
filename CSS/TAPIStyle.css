@@ -1,0 +1,179 @@
+body{
+ text-align: center;
+ align-items: center;
+ background-color: silver;
+ color: black;
+ font-family: "DotGothic16", sans-serif;
+ font-weight: 500;
+ font-style: normal;
+ color: black;
+}
+
+button{
+ background: linear-gradient(gray,darkgray,black);
+ border: solid black;
+ border-radius: 10px;
+ font-family: "DotGothic16", sans-serif;
+ font-weight: 900;
+ font-style: normal;
+ font-size: 16px;
+ color: white;
+ padding: 8px;
+ animation: Border-Rainbow 8s infinite;
+}
+
+button:hover{
+  background: linear-gradient(dimgray,gray,black);
+}
+
+summary{
+  all: unset;
+  background: linear-gradient(lightgray,silver,darkgray);
+  color: red;
+  border: solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  max-width: 530px;
+  width: 100%;
+  min-height: 20px;
+  padding: 3px;
+  display: inline-block;
+  animation: Border-Rainbow 8s infinite;
+}
+
+summary:hover{
+  background: linear-gradient(gainsboro,dimgray,gray);
+  color: darkred;
+}
+
+h1{
+ background: linear-gradient(gray,black);
+ border-radius: 9px;
+ color: white;
+}
+
+video{
+ width: 100%;
+ max-width: 445px;
+ padding: 3px;
+ border: 1px solid black;
+ border-radius: 10px;
+ aspect-ratio: 16 / 9;
+ animation: Border-RainBow 7s infinite;
+}
+
+img{
+ border: 1px solid black;
+ border-radius: 10px;
+ width: 100%;
+ max-width: 450px;
+ aspect-ratio: 16 / 9;
+}
+
+input[type="text"]{
+ border-radius: 12px;
+ font-size: 22px;
+ font-weight: 900;
+}
+
+div{
+ border: solid;
+ border-radius: 10px;
+}
+
+.RainBow-Border{
+ border: solid;
+ border-radius: 10px;
+ animation: Border-Rainbow 6s infinite;
+}
+
+a{
+ text-decoration: none;
+ color: red;
+ font-weight: 900;
+}
+
+a:hover{
+ color: darkred;
+ font-weight: 900;
+}
+
+b{
+ font-weight: 900;
+}
+
+iframe{
+ border: 1px solid white;
+ border-radius: 10px;
+}
+
+.RainBow-Text{
+ font-weight: 900;
+ animation: Rainbow 8s infinite;
+}
+
+@keyframes Rainbow{
+0%{
+  color: red;
+  color: red;
+  color: darkred;
+  color: darkred;
+}
+5%{
+  color: blue;
+  color: blue;
+  color: darkblue;
+  color: darkblue;
+}
+50%{
+ color: yellow;
+ color: yellow;
+ color: gold;
+ color: gold;
+}
+75%{
+ color: purple;
+ color: purple;
+ color: indigo;
+ color: indigo;
+}
+100%{
+ color: lime;
+ color: lime;
+ color: limegreen;
+ color: limegreen;
+}
+}
+
+@keyframes Border-Rainbow{
+0%{
+  border-color: red;
+  border-color: red;
+  border-color: darkred;
+  border-color: darkred;
+}
+5%{
+  border-color: blue;
+  border-color: blue;
+  border-color: darkblue;
+  border-color: darkblue;
+}
+50%{
+ border-color: yellow;
+ border-color: yellow;
+ border-color: gold;
+ border-color: gold;
+}
+75%{
+ border-color: purple;
+ border-color: purple;
+ border-color: indigo;
+ border-color: indigo;
+}
+100%{
+ border-color: lime;
+ border-color: lime;
+ border-color: limegreen;
+ border-color: limegreen;
+}
+}
