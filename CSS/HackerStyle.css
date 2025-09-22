@@ -1,0 +1,65 @@
+summary{
+list-style:none;
+}
+body{
+text-align:center;
+background-color:black;
+color:green;
+font-weight: 900;
+font-family: "DotGothic16", sans-serif;
+font-style: normal;
+}
+h1{
+border:solid silver 2px;
+border-radius:7px;
+font-size:45px;
+}
+h2{
+border:solid silver 2px;
+border-radius:7px;
+color:darkgreen;
+}
+button{
+background:linear-gradient(green,yellowgreen,green);
+border-radius:5px;
+border:solid silver 3px;
+padding:3px;
+color:white;
+font-size:13px;
+font-weight: 700;
+font-family: "DotGothic16", sans-serif;
+font-style: normal;
+}
+button:hover{
+opacity:0.45;
+}
+btn_2{
+background:linear-gradient(green,yellowgreen,green);
+border-radius:5px;
+border:solid silver 3px;
+padding:6px;
+color:white;
+font-size:13px;
+font-weight: 700;
+font-family: "DotGothic16", sans-serif;
+font-style: normal;
+}
+btn_2:hover{
+opacity:0.35;
+}
+a{
+color:green;
+font-size:18px;
+font-weight: 900;
+}
+a:hover{
+color:yellowgreen;
+opacity:0.45;
+}
+summary{
+color:green;
+font-weight: 900;
+}
+summary:hover{
+opacity:0.3;
+}
