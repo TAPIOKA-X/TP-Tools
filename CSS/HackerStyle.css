@@ -30,7 +30,7 @@ font-style: normal;
 button:hover{
 opacity:0.45;
 }
-btn_2{
+.btn_2{
 background:linear-gradient(green,yellowgreen,green);
 border-radius:5px;
 border:solid silver 3px;
@@ -41,7 +41,7 @@ font-weight: 700;
 font-family: "DotGothic16", sans-serif;
 font-style: normal;
 }
-btn_2:hover{
+.btn_2:hover{
 opacity:0.35;
 }
 a{
